@@ -1,4 +1,4 @@
-FROM tomcat8:openjdk-8
+FROM tomcat8.5:openjdk-8
 
 #환경 변수 및 작업 경로
 ENV CATALINA_HOME /usr/local/tomcat
