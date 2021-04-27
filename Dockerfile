@@ -13,7 +13,7 @@ COPY server.xml $CATALINA_HOME/conf
 COPY test_conf.txt /Users/gwoni/Documents/etoos/conf/test_conf.txt
 
 #컨테이너에서 사용할 포트
-EXPOSE 8080
+EXPOSE 9090
 
 #설정 완료 후 실행
 CMD ["catalina.sh", "run"]
