@@ -1,4 +1,4 @@
-FROM 498662441591.dkr.ecr.ap-northeast-2.amazonaws.com/test
+FROM 498662441591.dkr.ecr.ap-northeast-2.amazonaws.com/test:$(date "+%Y%m%d")
 
 #환경 변수 및 작업 경로
 ENV CATALINA_HOME /usr/local/tomcat
