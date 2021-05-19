@@ -4,7 +4,7 @@ FROM base_image:1.0
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
 
-WORKDIR ${CATALINA_HOME}
+WORKDIR $CATALINA_HOME
 
 #war 파일 server.xml 복사
 COPY *.war $CATALINA_HOME/webapps
