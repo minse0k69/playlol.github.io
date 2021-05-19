@@ -1,3 +1,4 @@
+FROM base_image
 
 #환경 변수 및 작업 경로
 ENV CATALINA_HOME /usr/local/tomcat
