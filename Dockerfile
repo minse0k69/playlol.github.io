@@ -1,8 +1,9 @@
-FROM base_image:1.0
+FROM 498662441591.dkr.ecr.ap-northeast-2.amazonaws.com/test
 
 #환경 변수 및 작업 경로
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
+
 WORKDIR ${CATALINA_HOME}
 
 #war 파일 server.xml 복사
